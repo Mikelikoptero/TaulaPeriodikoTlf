@@ -213,7 +213,7 @@
             color: var(--primary-color);
         }
 
-        /* Botones en fila para Orbitalak y Balentziak */
+        /* Botones en fila para alak y Balentziak */
         .row-buttons {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -613,8 +613,8 @@
             </button>
             
             <div class="row-buttons">
-                <button class="func-btn" id="showOrbitalsBtn">
-                    <div>Orbitalak 3D</div>
+                <button class="func-btn" id="showalsBtn">
+                    <div>alak 3D</div>
                 </button>
                 <button class="func-btn" id="showValenceBtn">
                     <div>Balentziak</div>
@@ -1302,23 +1302,23 @@ const actinides = [
 
         showOrbitalsBtn.addEventListener('click', () => {
             // Redirigir a la web especificada
-            window.location.href = 'https://mikelikoptero.github.io/OrbitalakTlf';
+            window.location.href = 'Orbitalak';
         });
 
         showValenceBtn.addEventListener('click', () => {
             // Redirigir a la web especificada
-            window.location.href = 'https://mikelikoptero.github.io/Balentzien-Taula/';
+            window.location.href = 'BalentzienTaula/';
         });
 
         // NUEVOS EVENT LISTENERS PARA LOS BOTONES AÑADIDOS
         showCompoundsBtn.addEventListener('click', () => {
             // Redirigir a la web especificada
-            window.location.href = 'https://mikelikoptero.github.io/KonposatuakTlf';
+            window.location.href = 'KonposatuInorganiko';
         });
 
         showCalculatorBtn.addEventListener('click', () => {
             // Redirigir a la web especificada
-            window.location.href = 'https://mikelikoptero.github.io/Kalkulagailua';
+            window.location.href = 'Kalkulagailu';
         });
 
         backFromTableBtn.addEventListener('click', () => {
@@ -1411,4 +1411,5 @@ const actinides = [
         showElementInfo(elements[0]);
     </script>
 </body>
+
 </html>
